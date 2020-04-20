@@ -1,0 +1,8 @@
+version: '3.4'
+services:
+  standalone_app:
+    build: .
+    command: [python, sample.py]
+    volumes:
+      - ./app:/app
+
